@@ -7,4 +7,6 @@ Ce projet est maintenu par MASTOR Yahia, Lucas Berger, Adrien et Clément DALIES
 @role :
 #TODO
 
-NORME DE PROGRAMMATION #TODO
+NORME DE PROGRAMMATION :
+Variable = nomVariable -> "nom de la vairiable"       Si une variable ne vous paraît pas claire décriver en commentaire.
+fonction = 

@@ -5,7 +5,7 @@ int _trig_ = 4; //émission
 int _echo_ = 5; //réception
 long lecture_echo;
 long cm;
-int btnState = 1 //btnState = 1 par default
+int btnState = 1; //btnState = 1 par default
 
 void setup()
 {
@@ -28,7 +28,7 @@ void loop(){
 //       noTone(bzr);
 //  }
 //programme detection de vague avec le switch
-  btnState = digitalRead(floatSensor)
+  btnState = digitalRead(floatSensor);
 
   if (btnState == HIGH){ //si le switch = true alors on buzze
     tone(bzr, 100);
